@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+        <title>Application 01</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="images/favicon.png" rel="shortcut icon" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/dataTables.bootstrap.css">
+        
+    </head>
+    <body>
+        <!-- Top menu -->
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">ENCAVA, C.A.</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+            </div>
+        </nav>
+        <!-- Page Title -->
+        <div class="page-title-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 wow fadeIn">
+                        <i class="fa fa-file-video-o"></i>
+                        <h1>B&uacute;squeda de pel&iacute;culas /</h1>
+                        <p>B&uacute;squeda de pel&iacute;culas por personaje (actor, actriz o director) </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+			<br /><br />
+			<div class="row">
+					<div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+					  <input type="text" class="form-control" id="personajes" placeholder="Buscar actor..." aria-describedby="basic-addon1" data-provide="typeahead" data-items="4" autocomplete="off"  />
+					</div>
+			</div>
+			<br /><br />
+			<div class="row">
+				<div id="notificacion"></div>
+			</div>
+        </div>
+		<div class="pricing-1-container">
+            <div class="container">
+                <div class="row">
+                    <table id="peliculas" class="cell-border" cellspacing="0" width="100%">
+                        <thead>
+                            <th>Fecha</th>
+                            <th>Titulo</th>
+							<th>Poster</th>
+							<th>Personaje</th>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+		
+        <script src="js/jquery-1.11.3.js"></script>
+		<script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap-hover-dropdown.js"></script>
+		<script src="js/bootstrap-typeahead.js"></script>
+		<script src="js/jquery.dataTables.js"></script>
+		<script src="js/dataTables.bootstrap.js"></script>
+		<script src="js/themoviedb.js"></script>
+		<script src="js/movies.js"></script>
+    </body>
+</html>
